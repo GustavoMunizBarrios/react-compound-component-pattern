@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import Counter from "./Counter";
 import "./styles.css";
 
@@ -14,6 +13,12 @@ export default function App() {
         hideIncrease={false}
         hideDecrease={false}
       /> */}
+      <Counter>
+        <Counter.Decrease icon="-" />
+        <Counter.Count />
+        <Counter.Increase icon="+" />
+        <Counter.Label>Super Counter</Counter.Label>
+      </Counter>
     </div>
   );
 }
