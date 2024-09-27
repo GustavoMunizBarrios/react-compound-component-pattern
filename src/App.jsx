@@ -19,6 +19,16 @@ export default function App() {
         <Counter.Increase icon="+" />
         <Counter.Label>Super Counter</Counter.Label>
       </Counter>
+
+      <div>
+        <Counter>
+          <Counter.Decrease icon="◀️" />
+          <div>
+            <Counter.Count />
+          </div>
+          <Counter.Increase icon="▶️" />
+        </Counter>
+      </div>
     </div>
   );
 }
